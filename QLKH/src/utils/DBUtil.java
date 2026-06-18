@@ -2,9 +2,8 @@ package utils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
 
-public class DBUtils {
+public class DBUtil {
     private static final String URL = "jdbc:postgresql://localhost:5432/QLKH";
     private static final String USER = "postgres";
     private static final String PASS = "Vucongtien123";
